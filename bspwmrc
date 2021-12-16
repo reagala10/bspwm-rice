@@ -21,4 +21,5 @@ bspc rule -a Screenkey manage=off
 $HOME/.config/polybar/launch.sh
 
 #Wallpaper
-feh --bg-center ~/Pictures/anonymous.jpeg
+xwinwrap -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv -wid WID --loop --no-audio ~/Downloads/liv
+e-wallpaper.mp4
