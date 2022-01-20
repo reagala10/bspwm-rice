@@ -22,3 +22,6 @@ $HOME/.config/polybar/launch.sh
 
 #Wallpaper
 nice xwinwrap -b -s -fs -st -sp -nf -ov -fdt -- mpv -wid WID --really-quiet --framedrop=vo --no-audio --panscan="1.0" ~/Videos/live-anime-wallpaper.mp4
+
+#Picom
+picom &
