@@ -21,5 +21,4 @@ bspc rule -a Screenkey manage=off
 $HOME/.config/polybar/launch.sh
 
 #Wallpaper
-xwinwrap -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv -wid WID --loop --no-audio ~/Downloads/liv
-e-wallpaper.mp4
+nice xwinwrap -b -s -fs -st -sp -nf -ov -fdt -- mpv -wid WID --really-quiet --framedrop=vo --no-audio --panscan="1.0" ~/Videos/live-anime-wallpaper.mp4
